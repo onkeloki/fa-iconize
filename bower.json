@@ -1,0 +1,26 @@
+{
+  "name": "fa-iconize",
+  "homepage": "https://github.com/onkeloki/fa-iconize",
+  "authors": [
+    "Marko Luft <me@markoluft.de>"
+  ],
+  "description": "a smart font-awesome extension to automatically adds matching icons to your links if you want",
+  "main": "src/fa-iconize.css",
+  "keywords": [
+    "iconize",
+    "fontawesome",
+    "font-awesome",
+    "icon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

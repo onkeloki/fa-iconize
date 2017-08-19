@@ -1,0 +1,16 @@
+html
+    head
+        link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+        link(href="../src/fa-iconize.css", rel="stylesheet")
+
+    body
+        - endings =""
+        - endings +="doc "
+        - endings +="zip rar tar gz "
+        - endings +="wav mp3 ogg "
+        - endings +="png jpg jpeg"
+
+        for e in endings.split(" ")
+            hr
+            - file = "whateverfile."+e
+            a(href="#{file}") #{file}

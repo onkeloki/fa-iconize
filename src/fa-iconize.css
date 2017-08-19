@@ -1,0 +1,55 @@
+a[href$='.zip']:before {
+  content: "\f1c6";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.rar']:before {
+  content: "\f1c6";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.tar']:before {
+  content: "\f1c6";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.gz']:before {
+  content: "\f1c6";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.jpg']:before {
+  content: "\f1c5";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.jpeg']:before {
+  content: "\f1c5";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.png']:before {
+  content: "\f1c5";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.doc']:before {
+  content: "\f1c2";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.wav']:before {
+  content: "\f1c7";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.mp3']:before {
+  content: "\f1c7";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
+a[href$='.ogg']:before {
+  content: "\f1c7";
+  padding-right: 0.2em;
+  font-family: FontAwesome;
+}
